@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="Rudimentary_Planner" name="broadcaster" type="broadcaster.py" output="screen"/>
+    <node pkg="Rudimentary_Planner" name="mover" type="mover.py" output="screen"/>
+
+</launch>
